@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-52H5JMHS');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0MWSTQKJQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G0MWSTQKJQ');
+  </script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;
+  n.push=n;
+  n.loaded=!0;
+  n.version='2.0';
+  n.queue=[];
+  t=b.createElement(e);
+  t.async=!0;
+  t.src=v;
+  s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)
+  }(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1707988086697446');
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+  <img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1707988086697446&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+
+  <title>Joyous Montessori Summer Camp | Fun & Learning</title>
+  <meta name="description" content="Explore Joyous Montessori Summer Camp! Fun, educational activities for kids, nurturing creativity and learning in a safe, supportive environment. Enroll today!">
+  <meta name="keywords" content="Joyous Montessori, Montessori Keller TX, preschool Keller TX, daycare Keller TX">
+  <meta name="author" content="Joyous Montessori">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://joyousmontessori.com/summer-camp/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/final-logo.png">
+  <link rel="shortcut icon" type="image/png" href="images/final-logo.png">
+  <link rel="apple-touch-icon" href="images/final-logo.png">
+  <meta name="theme-color" content="#0A3260">
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Joyous Montessori">
+  <meta property="og:title" content="Joyous Montessori Summer Camp | Fun & Learning">
+  <meta property="og:description" content="Explore Joyous Montessori Summer Camp! Fun, educational activities for kids, nurturing creativity and learning in a safe, supportive environment. Enroll today!">
+  <meta property="og:url" content="https://joyousmontessori.com/summer-camp/">
+  <meta property="og:image" content="images/Joyous-Montessori-Where-Learning-Feels-Joyful.webp">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Joyous Montessori Summer Camp | Fun & Learning">
+  <meta name="twitter:description" content="Explore Joyous Montessori Summer Camp! Fun, educational activities for kids, nurturing creativity and learning in a safe, supportive environment. Enroll today!">
+  <meta name="twitter:image" content="images/Joyous-Montessori-Where-Learning-Feels-Joyful.webp">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=4.1">
+  
+  <script>
+    function toggleSiteNav(e) {
+      if (e) {
+        if (e.preventDefault) e.preventDefault();
+        if (e.stopPropagation) e.stopPropagation();
+      }
+      var h = document.getElementById('header');
+      var n = document.getElementById('siteNav');
+      var b = document.getElementById('mobileMenuBackdrop');
+      var btn = document.getElementById('mobileMenuBtn');
+      var cBtn = document.getElementById('mobileMenuCloseBtn');
+      if (!h || !n) return;
+      var isOpen = h.getAttribute('data-menu-open') === 'true' || h.classList.contains('is-menu-open') || n.classList.contains('is-active');
+      var next = !isOpen;
+      h.setAttribute('data-menu-open', String(next));
+      h.classList.toggle('is-menu-open', next);
+      n.classList.toggle('is-active', next);
+      if (b) b.classList.toggle('is-active', next);
+      if (btn) {
+        btn.setAttribute('aria-expanded', String(next));
+        btn.setAttribute('aria-label', next ? 'Close navigation menu' : 'Open navigation menu');
+      }
+      if (next) {
+        document.body.style.overflow = 'hidden';
+        n.inert = false;
+        n.removeAttribute('aria-hidden');
+        if (cBtn) { try { cBtn.focus(); } catch (err) {} }
+      } else {
+        document.body.style.overflow = '';
+        if (window.innerWidth < 1024) { n.inert = true; n.setAttribute('aria-hidden', 'true'); }
+        var prog = h.querySelector('.jm-programs');
+        if (prog) prog.classList.remove('is-expanded');
+        var pTrig = document.getElementById('programsDropdownTrigger');
+        if (pTrig) pTrig.setAttribute('aria-expanded', 'false');
+        if (btn) { try { btn.focus(); } catch (err) {} }
+      }
+    }
+    var _lastSubmenuToggleTime = 0;
+    function toggleProgramsSubmenu(e) {
+      if (e) { if (e.preventDefault) e.preventDefault(); if (e.stopPropagation) e.stopPropagation(); }
+      var now = Date.now();
+      if (now - _lastSubmenuToggleTime < 280) return;
+      _lastSubmenuToggleTime = now;
+      var p = document.querySelector('#header .jm-programs');
+      var t = document.getElementById('programsDropdownTrigger');
+      if (!p) return;
+      var isExp = p.classList.toggle('is-expanded');
+      if (t) t.setAttribute('aria-expanded', String(isExp));
+    }
+  </script>
+  </head>
+<body>
+
+      <!-- Unified Site Header -->
+  <header class="site-header jm-header" id="header" data-menu-open="false">
+    <div class="jm-utility-band" aria-hidden="true"></div>
+    <div class="jm-brand-wing">
+      <svg class="jm-brand-art" viewBox="0 0 430 182" preserveAspectRatio="none" aria-hidden="true">
+        <defs><linearGradient id="jmOrangeWing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffab4b"/><stop offset="1" stop-color="#ff8f27"/></linearGradient></defs>
+        <path fill="#0063bf" d="M0 0H430V31H342C318 31 308 53 306 88C304 126 292 154 262 170L232 182H0Z"/>
+        <path fill="url(#jmOrangeWing)" d="M0 0H176C136 16 111 43 110 88C109 128 65 157 0 167Z"/>
+        <path fill="none" stroke="#ff942b" stroke-width="2.4" d="M430 31H342C318 31 308 53 306 88C304 126 292 154 262 170L232 182"/>
+      </svg>
+      <a href="index.html" class="jm-brand-link" aria-label="Joyous Montessori — Quality Education for Life">
+        <picture class="jm-logo-picture">
+          <source media="(max-width: 1023px)" srcset="images/final-logo.png">
+          <img src="images/emblem-tight-hd.png" alt="Joyous Montessori logo" class="jm-logo-mark" width="104" height="104">
+        </picture>
+        <span class="jm-brand-tagline">QUALITY EDUCATION FOR LIFE</span>
+      </a>
+    </div>
+    <div class="jm-header-content">
+      <div class="jm-utility-row">
+        <div class="jm-contact-info">
+          <a href="tel:+18174316661" class="jm-contact-link">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" /></svg>
+            <span>(817) 431-6661</span>
+          </a>
+          <span class="jm-contact-link jm-contact-hours">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" /></svg>
+            <span>Mon–Fri: 6:30 AM – 6:30 PM</span>
+          </span>
+          <a href="https://maps.google.com/?q=1685+Keller+Pkwy+Keller+TX+76248" target="_blank" rel="noopener" class="jm-contact-link jm-contact-address">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
+            <span>1685 Keller Pkwy, Keller, TX 76248</span>
+          </a>
+        </div>
+
+        <div class="jm-social-links">
+          <a href="https://www.facebook.com/JoyousMontessoriKellerSouthlakeFortworth" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" /></svg>
+          </a>
+          <a href="https://x.com/joymontessori" target="_blank" rel="noopener" aria-label="Twitter X">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
+          </a>
+          <a href="https://www.instagram.com/joyous_montessori_keller/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" /></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/joyous-montessori/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
+          </a>
+          <a href="https://www.youtube.com/@JoyousMontessoriKeller" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
+          </a>
+        </div>
+      </div>
+      <div class="jm-main-row">
+        <nav class="jm-nav" id="siteNav" aria-label="Main navigation">
+          <button type="button" class="jm-menu-close" id="mobileMenuCloseBtn" aria-label="Close navigation menu" onclick="toggleSiteNav(event)">✕</button>
+          <div class="jm-nav-item"><a href="index.html" class="jm-nav-link">Home</a></div>
+          <div class="jm-nav-item"><a href="about-us.html" class="jm-nav-link">About Us</a></div>
+          <div class="jm-nav-item jm-programs">
+            <a href="our-programs.html" class="jm-nav-link" aria-current="page" onclick="if(window.innerWidth < 1024){toggleProgramsSubmenu(event);}">Our Programs</a>
+            <button type="button" class="jm-dropdown-toggle" id="programsDropdownTrigger" aria-label="Show program links" aria-expanded="false" aria-controls="programsDropdown" onclick="toggleProgramsSubmenu(event)">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+            </button>
+            <div class="jm-dropdown" id="programsDropdown" role="region" aria-label="Programs submenu">
+              <a href="our-programs.html#infant" class="jm-dropdown-link">Infant Program (6w – 18m)</a>
+              <a href="our-programs.html#pre-toddlers" class="jm-dropdown-link">Pre-Toddler Program (18m – 2y)</a>
+              <a href="our-programs.html#transitional-toddlers" class="jm-dropdown-link">Transitional Toddlers (2y – 3y)</a>
+              <a href="our-programs.html#primary-class" class="jm-dropdown-link">Primary Classroom (3y – 6y)</a>
+              <a href="our-programs.html#enrichment-programs" class="jm-dropdown-link">Enrichment Programs</a>
+              <a href="our-programs.html#summer-programs" class="jm-dropdown-link">Summer Program</a>
+            </div>
+          </div>
+          <div class="jm-nav-item"><a href="parents-say.html" class="jm-nav-link">Parents Say</a></div>
+          <div class="jm-nav-item"><a href="photo-gallery.html" class="jm-nav-link">Photo Gallery</a></div>
+          <div class="jm-nav-item"><a href="contact-us.html" class="jm-nav-link">Contact Us</a></div>
+          <div class="jm-nav-item"><a href="https://joyousmontessori.com/blog/" target="_blank" rel="noopener" class="jm-nav-link">Blog</a></div>
+                    <div class="jm-nav-actions">
+            <a href="enroll.html" class="jm-btn-drawer jm-btn-enroll">Enroll Now</a>
+            <a href="https://bookings.joyousmontessori.com/#/schedule-a-tour" target="_blank" rel="noopener" class="jm-btn-drawer jm-btn-tour">Schedule a Tour</a>
+          </div>
+        </nav>
+        <div class="jm-actions">
+          <a href="enroll.html" class="jm-action jm-enroll">Enroll Now</a>
+          <a href="https://bookings.joyousmontessori.com/#/schedule-a-tour" target="_blank" rel="noopener" class="jm-action jm-tour">Schedule a Tour</a>
+          <button type="button" class="jm-menu-button" id="mobileMenuBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="siteNav" onclick="toggleSiteNav(event)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="jm-backdrop" id="mobileMenuBackdrop" aria-hidden="true" onclick="toggleSiteNav(event)"></div>
+  </header>
+
+  <!-- Hero Banner Section -->
+  <section class="hero-banner-section page-hero-banner" id="hero" style="position: relative; overflow: hidden;">
+    <div class="hero-banner-image-container" style="max-height: 480px; overflow: hidden;">
+      <img src="images/Joyous-Summer-Camp-1.webp" alt="Joyous Montessori Summer Camp"
+        class="hero-banner-full-img" width="1920" height="480" loading="eager" fetchpriority="high" style="width: 100%; height: auto; max-height: 480px; object-fit: cover; display: block;">
+    </div>
+  </section>
+
+    <main class="page-main-content">
+    <div class="container">
+      <div style="max-width: 1140px; width: 100%; margin: 0 auto; display: flex; flex-direction: column; gap: 3rem;">
+
+        <!-- Intro Card -->
+        <article class="content-card" style="padding: 2.75rem 2rem; background: #ffffff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); text-align: center;">
+          <h1 style="color: var(--navy, #0A3260); font-size: 2.2rem; font-weight: 800; line-height: 1.35; margin-bottom: 1.25rem; font-family: 'Plus Jakarta Sans', sans-serif;">
+            Inspiring Young Minds Through Fun, Creativity &amp; Discovery
+          </h1>
+          <p style="font-size: 1.15rem; line-height: 1.8; color: #374151; max-width: 900px; margin: 0 auto 1.75rem;">
+            Create unforgettable summer memories for your child at <strong style="color: var(--navy, #0A3260);">Joyous Montessori</strong> in Keller, TX. Our Montessori-inspired Summer Camp provides an engaging blend of hands-on learning, creative exploration, and exciting outdoor adventures in a safe, supportive, and nurturing environment.
+          </p>
+
+          <!-- Highlight Badges -->
+          <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+            <div style="background: #EFF6FF; border: 1px solid #BFDBFE; padding: 1rem 1.75rem; border-radius: 12px; display: flex; align-items: center; gap: 0.75rem;">
+              <span style="font-size: 1.5rem;">📅</span>
+              <div style="text-align: left;">
+                <div style="font-size: 0.85rem; font-weight: 600; color: #1E40AF; text-transform: uppercase;">Camp Dates</div>
+                <div style="font-size: 1.1rem; font-weight: 800; color: #1E3A8A;">May 15 to August 15, 2026</div>
+              </div>
+            </div>
+            <div style="background: #ECFDF5; border: 1px solid #A7F3D0; padding: 1rem 1.75rem; border-radius: 12px; display: flex; align-items: center; gap: 0.75rem;">
+              <span style="font-size: 1.5rem;">💲</span>
+              <div style="text-align: left;">
+                <div style="font-size: 0.85rem; font-weight: 600; color: #065F46; text-transform: uppercase;">Tuition</div>
+                <div style="font-size: 1.1rem; font-weight: 800; color: #047857;">$1,000 per month</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="font-size: 1.05rem; line-height: 1.8; color: #374151; max-width: 920px; margin: 0 auto; text-align: left; display: flex; flex-direction: column; gap: 1rem;">
+            <p>
+              At Joyous Montessori, summer is more than just a school break — it’s an opportunity for children to explore new interests, develop confidence, and grow through meaningful hands-on experiences. Every activity is carefully planned to inspire curiosity, independence, and joyful learning.
+            </p>
+            <p>
+              From exciting STEM projects and imaginative arts &amp; crafts to outdoor exploration and social-emotional development, campers enjoy enriching experiences that support the growth of the whole child — academically, socially, emotionally, and creatively.
+            </p>
+          </div>
+        </article>
+
+        <!-- Why Parents Choose Us Section -->
+        <section>
+          <div style="text-align: center; margin-bottom: 2.5rem;">
+            <h2 style="color: var(--navy, #0A3260); font-size: 2.1rem; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif;">
+              Why Parents Choose Joyous Montessori Summer Camp
+            </h2>
+            <div style="width: 60px; height: 4px; background: var(--jm-blue, #0063bf); margin: 0.75rem auto 0; border-radius: 2px;"></div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+            
+            <!-- Card 1 -->
+            <div class="content-card" style="background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.06); display: flex; flex-direction: column;">
+              <div style="height: 220px; overflow: hidden;">
+                <img src="images/Hands-On-STEAM-Adventures.webp" alt="Hands-On STEAM Adventures" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+              </div>
+              <div style="padding: 1.75rem; flex-grow: 1; display: flex; flex-direction: column;">
+                <h3 style="color: var(--navy, #0A3260); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.75rem;">Hands-On STEAM Adventures</h3>
+                <p style="color: #374151; font-size: 0.98rem; line-height: 1.7; margin: 0;">
+                  Children explore science, technology, engineering, art, and math through exciting experiments and interactive activities that make learning engaging, fun, and memorable.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="content-card" style="background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.06); display: flex; flex-direction: column;">
+              <div style="height: 220px; overflow: hidden;">
+                <img src="images/Creative-Arts-Self-Expression.webp" alt="Creative Arts & Self-Expression" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+              </div>
+              <div style="padding: 1.75rem; flex-grow: 1; display: flex; flex-direction: column;">
+                <h3 style="color: var(--navy, #0A3260); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.75rem;">Creative Arts & Self-Expression</h3>
+                <p style="color: #374151; font-size: 0.98rem; line-height: 1.7; margin: 0;">
+                  Our camp encourages imagination through painting, sculpting, crafting, music, storytelling, and creative projects that allow children to express themselves confidently.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="content-card" style="background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.06); display: flex; flex-direction: column;">
+              <div style="height: 220px; overflow: hidden;">
+                <img src="images/Outdoor-Fun-Active-Play.webp" alt="Outdoor Fun & Active Play" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+              </div>
+              <div style="padding: 1.75rem; flex-grow: 1; display: flex; flex-direction: column;">
+                <h3 style="color: var(--navy, #0A3260); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.75rem;">Outdoor Fun & Active Play</h3>
+                <p style="color: #374151; font-size: 0.98rem; line-height: 1.7; margin: 0;">
+                  Campers stay active and energized with outdoor games, water activities, nature walks, movement exercises, and group challenges that encourage teamwork and healthy development.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="content-card" style="background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.06); display: flex; flex-direction: column;">
+              <div style="height: 220px; overflow: hidden;">
+                <img src="images/Montessori-Inspired-Learning-Experience.webp" alt="Montessori-Inspired Learning Experience" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+              </div>
+              <div style="padding: 1.75rem; flex-grow: 1; display: flex; flex-direction: column;">
+                <h3 style="color: var(--navy, #0A3260); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.75rem;">Montessori-Inspired Learning Experience</h3>
+                <p style="color: #374151; font-size: 0.98rem; line-height: 1.7; margin: 0;">
+                  Every activity reflects Montessori values by promoting independence, confidence, responsibility, respect, and self-directed exploration in a supportive environment.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="content-card" style="background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.06); display: flex; flex-direction: column;">
+              <div style="height: 220px; overflow: hidden;">
+                <img src="images/Building-Friendships-Social-Skills.webp" alt="Building Friendships & Social Skills" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+              </div>
+              <div style="padding: 1.75rem; flex-grow: 1; display: flex; flex-direction: column;">
+                <h3 style="color: var(--navy, #0A3260); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.75rem;">Building Friendships & Social Skills</h3>
+                <p style="color: #374151; font-size: 0.98rem; line-height: 1.7; margin: 0;">
+                  Children develop communication skills, teamwork, empathy, and lasting friendships through collaborative activities and guided social interaction.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="content-card" style="background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.06); display: flex; flex-direction: column;">
+              <div style="height: 220px; overflow: hidden;">
+                <img src="images/Caring-Teachers-Safe-Environment.webp" alt="Caring Educators & Safe Environment" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+              </div>
+              <div style="padding: 1.75rem; flex-grow: 1; display: flex; flex-direction: column;">
+                <h3 style="color: var(--navy, #0A3260); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.75rem;">Caring Educators & Safe Environment</h3>
+                <p style="color: #374151; font-size: 0.98rem; line-height: 1.7; margin: 0;">
+                  Our experienced Montessori educators create a warm, welcoming atmosphere where every child feels supported, encouraged, and celebrated for their unique personality and abilities.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Activities Grid Section -->
+        <article class="content-card" style="padding: 2.75rem 2rem; background: linear-gradient(135deg, #F8FAFC, #EFF6FF); border: 1px solid #DBEAFE; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
+          <div style="text-align: center; margin-bottom: 2rem;">
+            <h2 style="color: var(--navy, #0A3260); font-size: 1.85rem; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif;">
+              Exciting Summer Activities Your Child Will Love
+            </h2>
+            <p style="color: #374151; font-size: 1.05rem; margin-top: 0.5rem;">
+              Our engaging summer program includes a variety of fun-filled activities designed to keep children learning and smiling all summer long:
+            </p>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; max-width: 960px; margin: 0 auto 1.75rem;">
+            <div style="background: #ffffff; padding: 1rem 1.25rem; border-radius: 10px; border-left: 4px solid var(--jm-blue, #0063bf); font-weight: 600; color: #1F2937; display: flex; align-items: center; gap: 0.75rem;">
+              <span>🔬</span> STEAM Experiments & Discovery
+            </div>
+            <div style="background: #ffffff; padding: 1rem 1.25rem; border-radius: 10px; border-left: 4px solid var(--jm-blue, #0063bf); font-weight: 600; color: #1F2937; display: flex; align-items: center; gap: 0.75rem;">
+              <span>🎨</span> Arts, Crafts & DIY Projects
+            </div>
+            <div style="background: #ffffff; padding: 1rem 1.25rem; border-radius: 10px; border-left: 4px solid var(--jm-blue, #0063bf); font-weight: 600; color: #1F2937; display: flex; align-items: center; gap: 0.75rem;">
+              <span>🧑‍🍳</span> Cooking & Sensory Activities
+            </div>
+            <div style="background: #ffffff; padding: 1rem 1.25rem; border-radius: 10px; border-left: 4px solid var(--jm-blue, #0063bf); font-weight: 600; color: #1F2937; display: flex; align-items: center; gap: 0.75rem;">
+              <span>🎭</span> Creative Dramatics & Storytelling
+            </div>
+            <div style="background: #ffffff; padding: 1rem 1.25rem; border-radius: 10px; border-left: 4px solid var(--jm-blue, #0063bf); font-weight: 600; color: #1F2937; display: flex; align-items: center; gap: 0.75rem;">
+              <span>🎵</span> Music, Dance & Movement
+            </div>
+            <div style="background: #ffffff; padding: 1rem 1.25rem; border-radius: 10px; border-left: 4px solid var(--jm-blue, #0063bf); font-weight: 600; color: #1F2937; display: flex; align-items: center; gap: 0.75rem;">
+              <span>💦</span> Outdoor Games & Water Play
+            </div>
+            <div style="background: #ffffff; padding: 1rem 1.25rem; border-radius: 10px; border-left: 4px solid var(--jm-blue, #0063bf); font-weight: 600; color: #1F2937; display: flex; align-items: center; gap: 0.75rem;">
+              <span>🌿</span> Nature Exploration & Group Hikes
+            </div>
+            <div style="background: #ffffff; padding: 1rem 1.25rem; border-radius: 10px; border-left: 4px solid var(--jm-blue, #0063bf); font-weight: 600; color: #1F2937; display: flex; align-items: center; gap: 0.75rem;">
+              <span>🧩</span> Montessori Learning Centers
+            </div>
+            <div style="background: #ffffff; padding: 1rem 1.25rem; border-radius: 10px; border-left: 4px solid var(--jm-blue, #0063bf); font-weight: 600; color: #1F2937; display: flex; align-items: center; gap: 0.75rem;">
+              <span>🤝</span> Team Building & Friendship Fun
+            </div>
+          </div>
+
+          <p style="text-align: center; font-size: 1.1rem; font-weight: 700; color: var(--navy, #0A3260); margin: 0;">
+            Every day brings a new opportunity to learn, explore, create, and grow!
+          </p>
+        </article>
+
+        <!-- CTA Box -->
+        <article class="content-card" style="padding: 3rem 2rem; background: #ffffff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); text-align: center;">
+          <h2 style="color: var(--navy, #0A3260); font-size: 2rem; font-weight: 800; margin-bottom: 1rem; font-family: 'Plus Jakarta Sans', sans-serif;">
+            Give Your Child a Summer Full of Learning & Joy
+          </h2>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: #374151; max-width: 800px; margin: 0 auto 2rem;">
+            Spaces for our Summer Camp fill quickly each year. Reserve your child’s spot today and give them a summer experience filled with discovery, creativity, confidence, and fun.
+          </p>
+
+          <div style="margin-bottom: 2.5rem;">
+            <a href="https://forms.zohopublic.com/joyousmontessori/form/SummarCampForm/formperma/3fFT76ICiWAdU8cMEOKANpUfU-gueS3sF6lacjqObDM" target="_blank" rel="noopener" class="btn btn-primary" style="font-size: 1.15rem; padding: 0.9rem 1.5rem; max-width: 100%; white-space: normal; display: inline-flex; justify-content: center; text-align: center; border-radius: 30px; box-shadow: 0 4px 14px rgba(0, 99, 191, 0.3); background: var(--jm-orange, #e65e18); border: 1.5px solid var(--jm-orange, #e65e18); text-decoration: none;">
+              Enroll in Summer Camp Now ➔
+            </a>
+          </div>
+
+          <!-- Contact Options -->
+          <div style="border-top: 1px solid #E5E7EB; padding-top: 2rem;">
+            <h3 style="color: var(--navy, #0A3260); font-size: 1.25rem; font-weight: 700; margin-bottom: 1.25rem;">
+              Have Questions? We’re Here to Help!
+            </h3>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+              <a href="tel:+18174316661" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; color: #374151; font-weight: 600; text-decoration: none; padding: 0.6rem 1rem; background: #F3F4F6; border-radius: 8px; max-width: 100%; text-align: center;">
+                <span>📞</span> Call Us Today: (817) 431-6661
+              </a>
+              <a href="enroll.html" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; color: #374151; font-weight: 600; text-decoration: none; padding: 0.6rem 1rem; background: #F3F4F6; border-radius: 8px; max-width: 100%; text-align: center; word-break: break-word;">
+                <span>🌐</span> Register Online: www.joyousmontessori.com/enroll
+              </a>
+              <a href="https://bookings.joyousmontessori.com/#/schedule-a-tour" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; color: #374151; font-weight: 600; text-decoration: none; padding: 0.6rem 1rem; background: #F3F4F6; border-radius: 8px; max-width: 100%; text-align: center; word-break: break-word;">
+                <span>🏫</span> Schedule a School Tour: Visit Joyous Montessori
+              </a>
+            </div>
+          </div>
+
+          <div style="margin-top: 2.5rem; background: #FFFBEB; border: 1px solid #FDE68A; padding: 1.5rem; border-radius: 12px; max-width: 820px; margin-left: auto; margin-right: auto;">
+            <h4 style="color: #92400E; font-size: 1.15rem; font-weight: 800; margin-bottom: 0.5rem;">
+              Make This Summer Meaningful — The Montessori Way
+            </h4>
+            <p style="color: #78350F; font-size: 0.98rem; margin: 0; line-height: 1.6;">
+              At <strong>Joyous Montessori</strong>, we create enriching summer experiences that nurture curiosity, inspire creativity, and help children build confidence for the future — all while having fun every single day.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+                  <div class="footer-top-grid">
+        <!-- Col 1: Brand & Social -->
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo-link">
+            <img src="images/final-logo.png" alt="Joyous Montessori - Quality Education for Life"
+              class="footer-logo-img" width="216" height="236">
+          </a>
+          <p>
+            Providing a nurturing, high-quality Montessori environment where children explore, grow with confidence, and
+            develop a lifelong love for learning.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://www.facebook.com/JoyousMontessoriKellerSouthlakeFortworth" target="_blank" rel="noopener"
+              class="footer-social-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" /></svg>
+            </a>
+            <a href="https://x.com/joymontessori" target="_blank" rel="noopener" class="footer-social-btn"
+              aria-label="Twitter X">
+              <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
+            </a>
+            <a href="https://www.instagram.com/joyous_montessori_keller/" target="_blank" rel="noopener"
+              class="footer-social-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" /></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/joyous-montessori/" target="_blank" rel="noopener"
+              class="footer-social-btn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
+            </a>
+            <a href="https://www.youtube.com/@JoyousMontessoriKeller" target="_blank" rel="noopener"
+              class="footer-social-btn" aria-label="YouTube">
+              <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
+            </a>
+          </div>
+          <div style="margin-top: 1rem; font-size: 0.88rem; color: rgba(255,255,255,0.75);">
+            <a href="https://nextdoor.com/page/joyous-montessori-keller/" target="_blank" rel="noopener" style="color: inherit; ">Nextdoor</a> • 
+            <a href="https://winnie.com/place/joyous-montessori-keller" target="_blank" rel="noopener" style="color: inherit; ">Winnie</a> • 
+            <a href="https://www.yelp.com/search?ad_preview_disclaimer=1&amp;bid_ids=JE4Pt0gnIJkwxTlpCiP8-Q&amp;find_loc=Keller%2C%20TX&amp;find_desc=Child%20Care%20%26%20Day%20Care" target="_blank" rel="noopener" style="color: inherit; ">Yelp</a>
+          </div>
+        </div>
+
+        <!-- Col 2: Events (Matches joyousmontessori.com) -->
+        <div>
+          <h4 class="footer-heading">For Families</h4>
+          <div class="footer-links">
+            <a href="enroll.html">Enroll Now</a>
+            <a href="about-us.html#virtual-tour">Take a Virtual Tour</a>
+            <a href="https://bookings.joyousmontessori.com/#/schedule-a-tour" target="_blank"
+              rel="noopener">Schedule a Tour</a>
+            <a href="newsletter.html">Our Newsletter</a>
+            <a href="local-resources-for-parents-in-keller-tx.html">Local Resources in Keller, TX</a>
+          </div>
+        </div>
+
+        <!-- Col 3: Quick Links (Matches joyousmontessori.com) -->
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="why-choose-us.html">Why Choose Us?</a>
+            <a href="current-offers.html">Current Offers</a>
+            <a href="about-us.html">About Us</a>
+            <a href="https://joyousmontessori.com/blog/" target="_blank" rel="noopener">Blog</a>
+            <a href="career.html">Career</a>
+            <a href="faq.html">FAQs</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+          </div>
+        </div>
+
+        <!-- Col 4: Get In Touch -->
+        <div>
+          <h4 class="footer-heading">Get In Touch</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
+              <a href="https://maps.google.com/?q=1685+Keller+Pkwy+Keller+TX+76248" target="_blank" rel="noopener"
+                style="color: inherit;">1685 Keller Pkwy,<br>Keller, TX 76248</a>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" /></svg>
+              <div>Phone: <a href="tel:+18174316661">(817) 431-6661</a></div>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" /></svg>
+              <div><a href="contact-us.html">Send Us a Message →</a></div>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" /></svg>
+                          <div>Mon - Fri: 6:30 AM - 6:30 PM</div>
+            </div>
+          </div>
+          <a href="https://maps.google.com/?q=1685+Keller+Pkwy+Keller+TX+76248" target="_blank" rel="noopener"
+            class="footer-directions-box" aria-label="Get directions to Joyous Montessori on Google Maps">
+            <div class="footer-directions-pin-wrap">
+              <svg class="footer-directions-pin" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+              </svg>
+            </div>
+            <span class="footer-directions-btn">Get directions</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="container" style="justify-content: center; text-align: center;">
+          <p style="margin: 0; text-align: center; width: 100%;">© 2026 Best Montessori preschool programs in Keller TX. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating "LET'S TALK!" Widget -->
+  <div class="lets-talk-widget" id="letsTalkWidget">
+    <button class="lets-talk-btn" id="letsTalkBtn" aria-label="Open Live Chat">
+      <span class="lets-talk-badge">💬</span>
+      <span class="lets-talk-text">LET'S TALK!</span>
+      <span class="lets-talk-online-dot"></span>
+    </button>
+
+    <div class="chat-drawer" id="chatDrawer" aria-hidden="true">
+      <div class="chat-drawer-header">
+        <div class="chat-drawer-title-row">
+          <div class="chat-avatar-group">
+            <span class="chat-avatar-icon">👩‍🏫</span>
+            <span class="chat-status-pulse"></span>
+          </div>
+          <div class="chat-title-info">
+            <h4>Joyous Montessori</h4>
+            <span class="chat-subtitle">Typically replies in under 5 minutes</span>
+          </div>
+        </div>
+        <button class="chat-drawer-close" id="chatDrawerClose" aria-label="Close Chat">✕</button>
+      </div>
+
+      <div class="chat-drawer-body">
+        <div class="chat-messages-container" id="chatMessagesContainer">
+          <div class="chat-step-box" id="stepNameBox">
+            <div class="chat-msg bot-msg">
+              <div class="chat-bubble prompt-bubble">Hello! Welcome to Joyous Montessori. May I know your name?</div>
+            </div>
+            <form class="chat-input-row" id="formName" onsubmit="event.preventDefault(); window.handleChatStep('name');">
+              <input type="text" id="inputChatName" class="chat-field" placeholder="Enter your name" required autocomplete="name">
+              <button type="submit" class="chat-submit-btn">Submit ›</button>
+            </form>
+          </div>
+
+          <div class="chat-step-box" id="stepEmailBox" style="display: none;">
+            <div class="chat-msg user-msg" id="userNameBubble"></div>
+            <div class="chat-msg bot-msg">
+              <div class="chat-bubble prompt-bubble">Great to meet you! What is your email address so we can send details?</div>
+            </div>
+            <form class="chat-input-row" id="formEmail" onsubmit="event.preventDefault(); window.handleChatStep('email');">
+              <input type="email" id="inputChatEmail" class="chat-field" placeholder="Enter your email" required autocomplete="email">
+              <button type="submit" class="chat-submit-btn">Submit ›</button>
+            </form>
+          </div>
+
+          <div class="chat-step-box" id="stepPhoneBox" style="display: none;">
+            <div class="chat-msg user-msg" id="userEmailBubble"></div>
+            <div class="chat-msg bot-msg">
+              <div class="chat-bubble prompt-bubble">Can I have your phone number?</div>
+            </div>
+            <form class="chat-input-row chat-phone-row" id="formPhone" onsubmit="event.preventDefault(); window.handleChatStep('phone');">
+              <div class="phone-input-group">
+                <select id="inputChatCountry" class="chat-country-select">
+                  <option value="+1" selected>🇺🇸 +1</option>
+                  <option value="+44">🇬🇧 +44</option>
+                  <option value="+91">🇮🇳 +91</option>
+                  <option value="+1-CA">🇨🇦 +1</option>
+                  <option value="+61">🇦🇺 +61</option>
+                </select>
+                <input type="tel" id="inputChatPhone" class="chat-field phone-field" placeholder="Enter your phone number" required autocomplete="tel">
+              </div>
+              <button type="submit" class="chat-submit-btn">Submit ›</button>
+            </form>
+          </div>
+
+          <div class="chat-step-box" id="stepFinalBox" style="display: none;">
+            <div class="chat-msg user-msg" id="userPhoneBubble"></div>
+            <div class="chat-msg bot-msg">
+              <div class="chat-bubble" id="finalConfirmationText">
+                Thank you for your patience in filling out the details. We will contact you as soon as possible. Meanwhile, if you would like to know more about us, feel free to ask.
+              </div>
+            </div>
+            <div class="chat-live-input-bar">
+              <input type="text" class="chat-field" placeholder="We are here to help you" id="liveMsgInput" onkeydown="if(event.key==='Enter'){event.preventDefault(); window.handleLiveMsg();}">
+              <button type="button" class="chat-send-icon-btn" onclick="window.handleLiveMsg()">➤</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-drawer-footer">
+        <span>Driven by <strong>Zoho SalesIQ</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Zoho SalesIQ Live Chat Widget Embed -->
+  <script type="text/javascript">
+    window.$zoho = window.$zoho || {};
+    $zoho.salesiq = $zoho.salesiq || { ready: function () { } };
+    (function () {
+      var d = document;
+      var s = d.createElement("script");
+      s.type = "text/javascript";
+      s.id = "zsiqscript";
+      s.defer = true;
+      s.src = "https://salesiq.zohopublic.com/widget?wc=siq685c24860b68dd55135f79e4ac9806cb2ba34dee77cdfbdc56bdf9d3bbcad10380589f675ad5475d02c1395b40472729";
+      d.head.appendChild(s);
+    })();
+  </script>
+
+  <script src="script.js?v=3.2"></script>
+</body>
+</html>
