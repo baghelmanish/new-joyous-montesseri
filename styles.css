@@ -2276,6 +2276,7 @@ body.jm-homepage { margin-top: 0; padding-top: 0 !important; }
   width: 100%;
   height: auto;
   object-fit: contain;
+  border-radius: var(--radius-lg, 16px);
   filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.08));
   transition: transform var(--transition-smooth);
 }
@@ -2517,7 +2518,7 @@ body.jm-homepage { margin-top: 0; padding-top: 0 !important; }
   border-radius: var(--radius-lg);
   overflow: hidden;
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--border-light);
   background: #F8FAFC;
@@ -6214,6 +6215,7 @@ body.jm-homepage { margin-top: 0; padding-top: 0 !important; }
   height: 100%;
   min-height: 480px;
   object-fit: cover;
+  object-position: center 25%;
   display: block;
 }
 .about-join-family-full {
@@ -6252,14 +6254,15 @@ body.jm-homepage { margin-top: 0; padding-top: 0 !important; }
   .about-feature-img-wrap {
     min-height: auto;
     height: auto;
-    max-height: 420px;
+    max-height: 480px;
   }
   .about-feature-img-wrap img {
     min-height: auto;
     height: auto;
-    aspect-ratio: 1200 / 800;
-    max-height: 420px;
+    aspect-ratio: 4 / 3;
+    max-height: 480px;
     object-fit: cover;
+    object-position: center 25%;
   }
   .about-tour-grid {
     grid-template-columns: 1fr !important;
