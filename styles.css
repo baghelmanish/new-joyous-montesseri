@@ -6593,6 +6593,18 @@ body.jm-homepage { margin-top: 0; padding-top: 0 !important; }
   background: #BD081C !important;
 }
 
+/* TikTok: #010101 */
+.site-header .jm-social-links a[href*="tiktok.com"],
+#header .jm-social-links a[href*="tiktok.com"],
+.site-header .jm-social-links a[aria-label*="TikTok"],
+#header .jm-social-links a[aria-label*="TikTok"],
+.footer-social-btn[href*="tiktok.com"],
+.footer-social-btn[aria-label*="TikTok"],
+.footer-social-links a[href*="tiktok.com"],
+.footer-social-links a[aria-label*="TikTok"] {
+  background: #010101 !important;
+}
+
 /* ==========================================================================
    Footer Get Directions Box (Matching Reference Design)
    ========================================================================== */
