@@ -6670,4 +6670,18 @@ body.jm-homepage { margin-top: 0; padding-top: 0 !important; }
   }
 }
 
+/* Temporarily hide Blog links (Navigation Menu & Footer) */
+.jm-nav-item:has(a[href*="/blog"]),
+.jm-nav-link[href*="/blog"],
+.footer-links a[href*="/blog"] {
+  display: none !important;
+}
+
+/* Hide Floating LET'S TALK Widget */
+.lets-talk-widget {
+  display: none !important;
+}
+
+
+
 
