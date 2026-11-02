@@ -88,23 +88,26 @@
     href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=4.1">
+  <link rel="stylesheet" href="styles.css?v=4.2">
 
   <style>
+    .enroll-about-card {
+      height: 100%;
+      box-sizing: border-box;
+    }
+
+    .enroll-form-card {
+      height: 100%;
+      box-sizing: border-box;
+    }
+
     .enroll-zoho-iframe {
       width: 100%;
-      height: 800px;
-      min-height: 800px;
+      height: 820px;
+      min-height: 820px;
       border: none;
       display: block;
       transition: height 0.25s ease;
-    }
-
-    @media (max-width: 640px) {
-      .enroll-zoho-iframe {
-        height: 980px;
-        min-height: 980px;
-      }
     }
 
     .enroll-zoho-iframe-2 {
@@ -116,14 +119,24 @@
       transition: height 0.25s ease;
     }
 
-    @media (max-width: 640px) {
-      .enroll-zoho-iframe-2 {
-        height: 980px;
-        min-height: 980px;
-      }
-    }
-
     @media (max-width: 900px) {
+      .enroll-top-grid {
+        grid-template-columns: 1fr !important;
+        gap: 2rem !important;
+      }
+
+      .enroll-about-card {
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 2rem 1.5rem 2.25rem !important;
+      }
+
+      .enroll-form-card {
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 1.5rem 1.25rem 1.25rem !important;
+      }
+
       .enroll-program-row {
         grid-template-columns: 1fr !important;
         gap: 1.5rem !important;
@@ -155,6 +168,29 @@
         max-height: 420px !important;
         object-fit: cover !important;
         display: block !important;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .enroll-about-card {
+        padding: 1.5rem 1.15rem 2rem !important;
+      }
+
+      .enroll-about-card .btn {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        box-sizing: border-box;
+      }
+
+      .enroll-form-card {
+        padding: 1rem 0.85rem 1rem !important;
+      }
+
+      .enroll-zoho-iframe,
+      .enroll-zoho-iframe-2 {
+        height: 1150px !important;
+        min-height: 1150px !important;
       }
     }
   </style>
@@ -412,12 +448,12 @@
         </div>
 
         <!-- Section 1: About Joyous Montessori + Official Admission Form -->
-        <div style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 2.5rem; align-items: start;"
+        <div style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 2.5rem; align-items: stretch;"
           class="enroll-top-grid">
 
           <!-- Left: About Details -->
-          <article class="content-card"
-            style="padding: 2.5rem; display: flex; flex-direction: column; gap: 1.35rem;height: 825px;">
+          <article class="content-card enroll-about-card"
+            style="padding: 2.5rem; display: flex; flex-direction: column; gap: 1.35rem;">
             <div class="section-tag" style="align-self: flex-start;">ABOUT JOYOUS MONTESSORI</div>
             <h2 style="color: var(--navy); font-size: 2rem; font-weight: 800; line-height: 1.25; margin: 0;">
               Joyous Montessori
@@ -449,7 +485,7 @@
           </article>
 
           <!-- Right: Admission Form Embed -->
-          <article class="content-card" style="padding: 1.25rem 1.25rem 0.25rem;">
+          <article class="content-card enroll-form-card" style="padding: 1.25rem 1.25rem 1rem;">
             <div style="width: 100%; border-radius: 12px; overflow: hidden; background: #FAFBFD;">
               <iframe class="enroll-zoho-iframe" aria-label='Admission Form' frameborder="0" scrolling="auto"
                 src='https://forms.zohopublic.com/joyousmontessori/form/AdmissionForm/formperma/6NkcrR9PWDPi5K09XWSDxS3nFFQVjaR7ubG-ALkdvs0'></iframe>
@@ -1125,7 +1161,7 @@
         if (evntData.height) newHeight = parseInt(evntData.height, 10);
       }
       if (newHeight > 500) {
-        var iframes = document.querySelectorAll('.enroll-zoho-iframe');
+        var iframes = document.querySelectorAll('.enroll-zoho-iframe, .enroll-zoho-iframe-2');
         iframes.forEach(function (iframe) {
           iframe.style.height = (newHeight + 40) + 'px';
         });
