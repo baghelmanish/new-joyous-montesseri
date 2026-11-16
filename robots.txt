@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Block WordPress admin and system directories
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-json/
+Disallow: /xmlrpc.php
+Disallow: /trackback/
+Disallow: /cgi-bin/
+
+# Block internal search and query parameters to prevent duplicate content
+Disallow: /?s=
+Disallow: /search/
+
+# Sitemap location
+Sitemap: https://joyousmontessori.com/sitemap.xml
