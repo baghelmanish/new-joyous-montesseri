@@ -1,0 +1,58 @@
+# Joyous Montessori
+
+> Joyous Montessori is a Montessori-based early childhood education and childcare center located in Keller, Texas. The school provides infant, toddler, preschool, enrichment, and summer programs in a nurturing learning environment.
+
+## Official Website
+
+- https://joyousmontessori.com/ — Official website and overview of Joyous Montessori.
+- https://joyousmontessori.com/about-us — About the school, its educational approach, and learning environment.
+- https://joyousmontessori.com/our-programs — Overview of the school's education and care programs.
+- https://joyousmontessori.com/keller-montessori-programs — Information about Montessori programs and learning experiences in Keller.
+- https://joyousmontessori.com/daycare-programs-in-keller-tx — Information about daycare and early learning in Keller.
+- https://joyousmontessori.com/enroll — Enrollment and admissions information.
+- https://joyousmontessori.com/contact-us — Official contact information and campus location.
+
+## Programs
+
+Joyous Montessori's published programs include:
+
+- Infant Program — Care and age-appropriate early learning for infants from approximately 6 weeks.
+- Pre-Toddler Program — Early Montessori experiences for children from approximately 18 months.
+- Transitional Toddler Program — Activities that support independence, practical life skills, language, and social development.
+- Primary Class — Montessori learning for young children, including language, mathematics, practical life, sensorial learning, and cultural studies.
+- Enrichment Programs — Activities listed by the school include Spanish, music and movement, yoga, computer lab, gymnastics, sports skill development, book club, gardening, and cooking.
+- Summer Programs — Themed summer activities and hands-on learning experiences.
+
+For current age eligibility, availability, schedules, and enrollment details, refer to the official program and enrollment pages or contact the school.
+
+## Montessori Approach
+
+The school describes its approach as child-focused and hands-on. Its published materials emphasize learning at each child's pace, exploration, independence, practical life activities, sensorial experiences, language, mathematics, and guidance from educators.
+
+## Location and Contact
+
+- School: Joyous Montessori
+- Address: 1685 Keller Pkwy, Keller, TX 76248, United States
+- Phone: +1-817-431-6661
+- Email: keller@joyousmontessori.com
+- Published website hours: Monday–Friday, 6:30 AM–6:30 PM
+
+Please confirm current hours, program availability, tuition, and admissions details directly with the school, as these details may change.
+
+## Service Area
+
+The school's website identifies Keller, Texas, and nearby communities including Southlake, Westlake, Colleyville, North Richland Hills, and Fort Worth.
+
+## Blog and Educational Resources
+
+- https://joyousmontessori.com/blog/ — Official Joyous Montessori blog, with articles and educational information for parents about Montessori learning, early childhood development, preschool, and childcare.
+
+Use the blog index to discover the latest published articles. Individual article URLs and publication details may change as new content is added.
+
+
+
+
+## Sitemap and Crawling
+- Main website: https://joyousmontessori.com/
+- WordPress blog section: https://joyousmontessori.com/blog/
+- Sitemap: Refer to the sitemap URL currently published in the website's robots.txt or sitemap configuration. Do not assume a sitemap filename if it has not been verified.
